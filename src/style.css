@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:darkblue;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 15px;
+}
+
+
+body img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+body h1{
+    text-align: center;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+a,a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 24px 0;
+}
+
+header h1{
+    color: orange;
+}
+
+header img{
+    width: 90%;
+    height: 90%;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+   width: 30%;
+}
+
+.search{
+   width: 30%;
+}
+
+.movie-list, .upcoming{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.movie-item{
+    width: 23%;
+    margin-right: 2%;
+    margin-bottom: 20px; 
+}
+
+.movie-item-inner{
+    padding: 12px;
+    background-color: darkblue;
+   
+}
+
+.button1 button{
+   border-radius: 8px;
+   padding: 2px;
+}
+
+.button2 button{
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.movie-item img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie-item h1{
+    font-size: 16px;
+    padding: 4px;
+    text-align: center;
+}
+
+.movie-item p{
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.links a{
+    font-size: 20px;
+    margin-right: 12px 24px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+.links a:visited{
+    color: white;
+}
+
+
+.links {
+   display: flex;
+   color: white;
+    width: 400%;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(255,255,255,0.3);
+}
+
+.links a {
+    margin: 0 12px;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.movie {
+    display: flex;
+}
+
+.movie img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.movie-info{
+ margin-left:  100px;
+}
+
+.movie-info h1{
+    margin: 10px;
+}
+
+
+.form{
+    width: 100%;
+    display: flex;
+}
+
+
+.form input{
+    flex: 1;
+    height: 32px;
+    padding: 0 15px;
+    outline: none;
+    border-radius: 15px;
+    border-color: none;
+    width: 32px;
+}
+
+.form button{
+    color: black;
+    width: 120px;
+    border-radius: 15px;
+    box-shadow: 0 10px 16px rgba(255,255,255,0.3);
+}
+
+
+footer{
+ text-align: center;
+ padding: 24px;
+}
+
+footer img{
+    margin-left: 290px;
+    width: 60%;
+    height: 60%;
+}
+
+footer p{
+    text-align: left;
+    flex-wrap:nowrap;
+}
+
+footer h3{
+
+    text-align: left;
+    padding: 10px;
+}
+
+
+.Search h1{
+    padding: 20px;
+}
+
+.email input{
+   height: 25px;
+   border-radius: 10px;
+}
+
+.email button{
+    color: black;
+    height: 25px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+.email h1{
+    padding: 15px;
+}
